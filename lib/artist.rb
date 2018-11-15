@@ -1,9 +1,7 @@
-class artist
-  attr_accesor: name
+class Artist
+  attr_accessor :name
 
   def intialized
     @name = name
   end
-  
-
 end
